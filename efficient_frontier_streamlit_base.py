@@ -16,7 +16,7 @@ risk_methods = ["covariance"]
 risk_free_rates = ["no risk free rate", "4 week treasury bill", "3 month treasury bill", "6 month treasury bill", "1 year treasury bill", "manual input"]
 function_list = ['efficient frontier', 'ticker drop', 'Value at Risk (VaR) analysis']
 
-st.header("Efficient Frontier")
+st.header("مرز کارآمد")
 with st.beta_expander('purpose'):
     st.write("One of my interests is in portfolio management and optimization, so I've built in a \
              framework for building efficient frontiers, and plan to add more. Such as rebalancing \
@@ -410,7 +410,7 @@ if sidebar_function == "Value at Risk (VaR) analysis":
                     
 st.write('Disclaimer: Information and output provided on this site does \
          not constitute investment advice.')
-st.write('Created by Diego Alvarez')
-st.write("[GitHub](https://github.com/diegodalvarez) |", 
-         "[LinkedIn](https://www.linkedin.com/in/diegodalvarez/) |",
-         "[Medium](https://dial0663.medium.com/)")
+st.write('ساخته شده توسط احمد مصطفوی')
+st.write("[GitHub](https://github.com/verethraghnah) |", 
+         "[LinkedIn](https://www.linkedin.com/in/ahmad-mostafavi/) |",
+         "[site](https://www.dadehkav.tech/)")
