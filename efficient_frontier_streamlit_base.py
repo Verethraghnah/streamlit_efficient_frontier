@@ -1,15 +1,3 @@
-import numpy as np
-import pandas as pd
-import yfinance as yf
-import datetime as dt
-import streamlit as st
-import plotly.express as px
-import matplotlib.pyplot as plt
-import pandas_datareader as web
-import plotly.graph_objects as go
-
-from streamlit_efficient_frontier import *
-from streamlit_var import *
 
 import streamlit as st
 import pandas as pd
